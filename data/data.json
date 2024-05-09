@@ -1,0 +1,40 @@
+{
+  "drinks": [
+    {
+      "name": "Espresso",
+      "price": "£2.99",
+      "description": "Rich and aromatic, a pure espresso experience.",
+      "image": "../images/espresso.jpg",
+      "type": "coffee",
+      "popularity": 95,
+      "dateAdded": "2021-01-15"
+    },
+    {
+      "name": "Green Tea",
+      "price": "£1.99",
+      "description": "Freshly brewed, sourced from the finest gardens.",
+      "image": "../images/green_tea.jpg",
+      "type": "tea",
+      "popularity": 88,
+      "dateAdded": "2021-03-12"
+    },
+    {
+      "name": "Hot Chocolate",
+      "price": "£2.49",
+      "description": "Creamy milk chocolate, a sweet treat for any time of the day.",
+      "image": "../images/hot_chocolate.jpg",
+      "type": "hot chocolate",
+      "popularity": 90,
+      "dateAdded": "2021-05-20"
+    },
+    {
+      "name": "Berry Smoothie",
+      "price": "£3.49",
+      "description": "Mixed berries blended to perfection with natural yogurt.",
+      "image": "../images/berry_smoothie.jpg",
+      "type": "smoothie",
+      "popularity": 85,
+      "dateAdded": "2021-07-22"
+    }
+  ]
+}

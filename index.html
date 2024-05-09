@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#795548">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Moonbucks Coffee</title>
+</head>
+<body class="theme-light">
+  <header>
+    <h1>Moonbucks Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="coffee">Coffee</option>
+      <option value="tea">Tea</option>
+      <option value="hot chocolate">Hot Chocolate</option>
+      <option value="smoothies">Smoothies</option>
+    </select>
+    <select id="sort">
+      <option value="popularity">Popularity</option>
+      <option value="newest">Newest</option>
+    </select>
+  </div>
+  <main id="main-content">
+    <!-- Content loaded from JavaScript -->
+  </main>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
